@@ -13,7 +13,7 @@ public class ShapeProject {
 
         Rectangle rectangle = new Rectangle();
         rectangle.length = 10;
-        rectangle.width = 10;
+        rectangle.width = 4;
         rectangle.printArea();
 
 
