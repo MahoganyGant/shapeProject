@@ -25,5 +25,10 @@ public class ShapeProject {
         Diamond diamond = new Diamond(16);
         diamond.printArea();
         diamond.printPerimeter();
+
+        Square square = new Square(12);
+        square.printArea();
+        square.printPerimeter();
+
     }
 }
