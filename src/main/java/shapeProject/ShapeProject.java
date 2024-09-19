@@ -15,12 +15,7 @@ public class ShapeProject {
         rectangle.length = 10;
         rectangle.width = 4;
         rectangle.printArea();
-
-
-        Rectangle rectangle2 = new Rectangle();
-        rectangle2.length = 10;
-        rectangle2.width = 10;
-        rectangle2.printPerimeter();
+        rectangle.printPerimeter();
 
         Diamond diamond = new Diamond(16);
         diamond.printArea();
