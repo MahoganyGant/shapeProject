@@ -21,5 +21,10 @@ public class ShapeProject {
         rectangle2.length = 10;
         rectangle2.width = 10;
         rectangle2.printPerimeter();
+
+        Square square = new Square(12);
+        square.printArea();
+        square.printPerimeter();
+
     }
 }
